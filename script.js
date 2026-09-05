@@ -13,8 +13,8 @@
   var NON_SCATTER = ["A", "K", "Q", "J", "10", "♥", "♦", "♠", "♣", "ACE", "💎", "👑"];
   var SCATTER_RATE = 0.035;        // per-cell scatter chance on paid spins
   var SCATTER_RATE_FREE = 0.045;   // slightly luckier during free spins
-  var DEAD_SPIN_CHANCE = 0.45;     // share of paid spins dealt as guaranteed dead boards
-  var DEAD_SPIN_CHANCE_FREE = 0.30;
+  var DEAD_SPIN_CHANCE = 0.50;     // 50/50: half of paid spins are guaranteed dead boards
+  var DEAD_SPIN_CHANCE_FREE = 0.50;  // free spins also 50/50, same as paid spins
   var DEAD_MSGS = ["No win — try again!", "Dead spin. Walay daog!", "Sayang! Spin again…", "No match — laban lang!"];
   var PAYOUT = { 3: 2, 4: 5, 5: 20 }; // x bet x multiplier (5 also covers 6+)
   var SCATTER_PAY = { 3: 5, 4: 15, 5: 50 };
